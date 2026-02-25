@@ -1,16 +1,16 @@
 /*
  * ╔══════════════════════════════════════════════════════════════╗
- * ║  SITE CONFIGURATION — Edit this file to personalize your    ║
- * ║  portfolio. All text, links, and content live here.         ║
+ * ║  SITE CONFIGURATION — PROFESSIONAL EDITION                  ║
+ * ║  Clean, valid JavaScript for Next.js Deployment              ║
  * ╚══════════════════════════════════════════════════════════════╝
  */
 
 const siteConfig = {
   /* ── Identity ── */
   name: "RAGHAV THAKUR",
-  logoName: "RAGHAV", // text before the dot in the nav
-  logoDot: ".", // the colored dot
-  logoSuffix: "AI", // text after the dot
+  logoName: "RAGHAV",
+  logoDot: ".",
+  logoSuffix: "AI",
 
   /* ── Contact ── */
   email: "studentdpsdharan@gmail.com",
@@ -18,7 +18,7 @@ const siteConfig = {
   github: "#",
 
   /* ── Hero ── */
-  badge: "🤖 AI SYSTEMS ARCHITECT & FULL-STACK DEVELOPER",
+  badge: "🚀 AI SYSTEMS ARCHITECT & FULL-STACK ENGINEER",
   heroTitle: {
     before: "Engineering Scalable ",
     highlight: "Intelligence & Backend Systems.",
@@ -36,7 +36,7 @@ const siteConfig = {
   ],
   heroCTA: {
     primary: { label: "EXPLORE ARCHITECTURES", href: "#architectures" },
-    secondary: { label: "COLLABORATE" }, // mailto is auto-generated from email
+    secondary: { label: "COLLABORATE" },
   },
 
   /* ── Terminal Card ── */
@@ -51,13 +51,13 @@ const siteConfig = {
       {
         label: "KNOWLEDGE",
         color: "text-purple-400",
-        text: "RAG Pipeline- Contextualizing with Domain Data.",
+        text: "RAG Pipeline: Contextualizing with Domain Data (70%+ Accuracy).",
         indent: true,
       },
       {
         label: "SECURITY",
         color: "text-green-400",
-        text: "Logic Guardrails & Multi-Turn Context Memory.",
+        text: "Applying Logic Guardrails & Multi-Turn Context Memory.",
         indent: true,
       },
       {
@@ -73,21 +73,19 @@ const siteConfig = {
 
   /* ── Marquee Skills ── */
   skills: [
-    { name: "LLM FINE-TUNING", icon: "FaMicrochip", color: "text-purple-400" },
+    { name: "LLM FINE-TUNING", icon: "FaMicrochip", color: "text-purple-500" },
     { name: "AGENTIC RAG", icon: "FaRobot", color: "text-blue-500" },
-    { name: "SQL", icon: "FaDatabase", color: "text-orange-500" },
-    { name: "GOLANG", icon: "FaGolang", color: "text-cyan-500" },
-    { name: "NEXT.JS", icon: "FaReact", color: "text-blue-300" },
-    { name: "COMPUTER VISION", icon: "FaEye", color: "text-red-500" },
-    { name: "CLICKHOUSE", icon: "FaDatabase", color: "text-orange-500" },
-
+    { name: "GOLANG BACKEND", icon: "FaGolang", color: "text-cyan-500" },
+    { name: "NEXT.JS FRONTEND", icon: "FaReact", color: "text-blue-300" },
+    { name: "COMPUTER VISION (YOLO)", icon: "FaEye", color: "text-red-500" },
+    { name: "CLICKHOUSE / SQL", icon: "FaDatabase", color: "text-orange-500" },
     { name: "TIME-SERIES ML", icon: "FaChartLine", color: "text-green-500" },
-    { name: "AI DEPLOYMENT", icon: "FaServer", color: "text-gray-400" },
+    { name: "AI DEPLOYMENT (VLLM)", icon: "FaServer", color: "text-gray-400" },
   ],
 
   /* ── Architectures ── */
   architectures: {
-    coderSwarm: {
+    aiStack: {
       title: { highlight: "Domain-Specific", rest: " AI Life Cycle" },
       description:
         'A comprehensive approach to AI deployment—from <span class="text-blue-300 font-semibold">Dataset Preparation</span> and Fine-tuning to production-grade <span class="text-green-300 font-semibold">Inference APIs</span>.',
@@ -115,7 +113,7 @@ const siteConfig = {
       ],
     },
     enterprise: {
-      title: { highlight: "Enterprise ", rest: " Systems & Utility" },
+      title: { highlight: "Enterprise", rest: " Systems & Utility" },
       description:
         'Building scalable <span class="text-white">Backend Gateways</span> and personal utility applications like <span class="text-white">Household Expense Trackers</span>.',
       items: [
@@ -131,7 +129,7 @@ const siteConfig = {
         },
         {
           text: "Automated Data Scrapers & Generators",
-          icon: "FaSpider",
+          icon: "FaCogs",
           color: "text-purple-400",
         },
       ],
@@ -141,45 +139,31 @@ const siteConfig = {
   /* ── Capabilities ── */
   capabilities: [
     {
-      title: "AI Fine-Tuning",
+      title: "Custom LLM Fine-Tuning",
       description:
-        "Optimizing advanced AI models (Gemma, Florence-2, DeepSeek) for high-accuracy local inference.",
+        "Specializing in LoRA adapters and model merging to create domain-expert AI systems from raw data.",
       icon: "FaMicrochip",
       accent: "blue",
     },
-    // {
-    //   title: "AI Agent Orchestration",
-    //   description:
-    //     "Mastery in AI frameworks (LangGraph, CrewAI) and custom sub-agent skill definition.",
-    //   icon: "FaChess",
-    //   accent: "purple",
-    // },
     {
-      title: "Advanced AI RAG",
+      title: "Agentic RAG Systems",
       description:
-        "Self-correcting knowledge retrieval with hybrid search and vector databases.",
+        "Designing autonomous knowledge retrieval pipelines with integrated guardrails and memory.",
       icon: "FaBrain",
-      accent: "green",
+      accent: "purple",
     },
     {
       title: "Scalable Backend Engineering",
       description:
         "Developing high-concurrency gateways in Go and Python with multi-database support (SQL/Clickhouse).",
-      icon: "FaCode",
+      icon: "FaTerminal",
       accent: "green",
     },
     {
       title: "Data Science & Vision",
       description:
         "Applying Computer Vision (YOLO) and ML analysis to text, image, and time-series datasets.",
-      icon: "FaEye",
-      accent: "orange",
-    },
-    {
-      title: "Edge AI Deployment",
-      description:
-        "Running production-grade vision and NLP models on constrained local hardware.",
-      icon: "FaRocket",
+      icon: "FaChartBar",
       accent: "orange",
     },
   ],
@@ -203,9 +187,8 @@ const siteConfig = {
   ],
 
   /* ── Footer ── */
-  footerTagline: "Code that Reasons. Systems that Scale.",
-  footerRole:
-    "AI Engineer & Full Stack Developer @ Department of Posts | Patna, India",
+  footerTagline: "Bridging Enterprise Logic with Autonomous Intelligence.",
+  footerRole: "AI/ML Engineer & Full Stack Developer | Patna, India",
 };
 
 export default siteConfig;

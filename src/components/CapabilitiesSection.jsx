@@ -1,7 +1,25 @@
 import siteConfig from "@/data/siteConfig";
-import { FaMicrochip, FaChess, FaBrain, FaRocket } from "react-icons/fa6";
+import {
+  FaMicrochip,
+  FaChess,
+  FaBrain,
+  FaRocket,
+  FaTerminal,
+  FaChartBar,
+  FaEye,
+  FaCode,
+} from "react-icons/fa6";
 
-const iconMap = { FaMicrochip, FaChess, FaBrain, FaRocket };
+const iconMap = {
+  FaMicrochip,
+  FaChess,
+  FaBrain,
+  FaRocket,
+  FaTerminal,
+  FaChartBar,
+  FaEye,
+  FaCode,
+};
 
 const accentClasses = {
   blue: {

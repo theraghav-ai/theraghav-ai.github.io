@@ -1,10 +1,20 @@
 import siteConfig from "@/data/siteConfig";
-import { FaFileInvoice, FaBox, FaCommentDots } from "react-icons/fa6";
+import {
+  FaFileInvoice,
+  FaBox,
+  FaCommentDots,
+  FaCode,
+  FaDesktop,
+  FaSpider,
+} from "react-icons/fa6";
 
 const iconMap = {
   FaFileInvoice,
   FaBox,
   FaCommentDots,
+  FaCode,
+  FaDesktop,
+  FaSpider,
 };
 
 export default function ArchitecturesSection() {

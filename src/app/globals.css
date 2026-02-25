@@ -82,7 +82,7 @@ h3 {
 .marquee-track {
   display: flex;
   width: 200%;
-  animation: marquee-scroll 30s linear infinite;
+  animation: marquee-scroll 15s linear infinite;
 }
 
 .marquee-track:hover {
