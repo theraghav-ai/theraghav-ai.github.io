@@ -17,7 +17,7 @@ export default function HeroSection() {
 
           {/* Contact links */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
-            <a
+            {/* <a
               href={`mailto:${email}`}
               className="flex items-center gap-2 text-slate-300 hover:text-blue-400 transition"
             >
@@ -32,7 +32,7 @@ export default function HeroSection() {
             >
               <FaLinkedin />
               <span className="text-sm font-medium">LinkedIn</span>
-            </a>
+            </a> */}
           </div>
 
           {/* AI badge */}

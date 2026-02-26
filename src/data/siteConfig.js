@@ -77,7 +77,7 @@ const siteConfig = {
     { name: "AGENTIC RAG", icon: "FaRobot", color: "text-blue-500" },
     { name: "SQL", icon: "FaDatabase", color: "text-orange-500" },
     { name: "GOLANG", icon: "FaGolang", color: "text-cyan-500" },
-    { name: "NEXT.JS", icon: "FaReact", color: "text-blue-300" },
+    { name: "REACT", icon: "FaReact", color: "text-blue-300" },
     { name: "COMPUTER VISION", icon: "FaEye", color: "text-red-500" },
     { name: "CLICKHOUSE", icon: "FaDatabase", color: "text-orange-500" },
 

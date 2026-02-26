@@ -13,11 +13,11 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "GenAI & Agentic Systems Architect",
+  title: "Raghav Thakur | AI Systems Architect & Full Stack Developer",
   description:
     "Portfolio — Engineering the Future of Autonomous AI Work. Designing autonomous Multi-Agent AI Swarms that reason, plan, and self-correct.",
   openGraph: {
-    title: "GenAI & Agentic Systems Architect",
+    title: "Raghav Thakur | AI Systems Architect & Full Stack Developer",
     description:
       "Designing autonomous Multi-Agent AI Swarms that reason, plan, and self-correct.",
     type: "website",
